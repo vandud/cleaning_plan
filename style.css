@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+
+.table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.4285714;
+    border-top: 1px solid #ddd
+}
+
+.table>thead>tr>td,
+.table>tbody>tr>th,
+.table>tbody>tr>td,
+.table>tfoot>tr>th,
+.table>tfoot>tr>td {
+    padding: 8px;
+    line-height: 1.4285714;
+    vertical-align: top;
+    border-top: 1px solid #ddd
+}
+
+.table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd
+}
+
+
+.table>tbody+tbody {
+    border-top: 2px solid #ddd
+}
+
+.table .table {
+    background-color: #fff
+}
+
+
+.table-bordered,
+.table-bordered>thead>tr>th,
+.table-bordered>thead>tr>td,
+.table-bordered>tbody>tr>th,
+.table-bordered>tbody>tr>td,
+.table-bordered>tfoot>tr>th,
+.table-bordered>tfoot>tr>td {
+    border: 1px solid #ddd
+}
+
+.table-bordered>thead>tr>th,
+.table-bordered>thead>tr>td {
+    border-bottom-width: 2px
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: #f9f9f9
+}
+
+html {
+    font-size: 2.875em;
+    background: #fff;
+    color: #373D49
+}
+
+body {
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1rem
+}
+
+th,
+td {
+    padding: 12px
+}
+
+
+p {
+    font-size: .6em;
+}
