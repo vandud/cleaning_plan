@@ -7,7 +7,7 @@
 </head>
 <body id="preview">
 <center>
-<h3>Текущая неделя</h3>
+<h3>Предыдущая неделя</h3>
 <p>Date</p>
 <table class="table table-striped table-bordered">
 <thead>
